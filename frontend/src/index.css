@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loading .item-1{
+    animation: ping 1s ease infinite;
+}
+.loading .item-2{
+    animation: ping 1s 0.33s ease infinite;
+}
+.loading .item-3{
+    animation: ping 1s 0.66s ease infinite;
+}
+@keyframes ping {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.3);
+    }
+}
