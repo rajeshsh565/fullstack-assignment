@@ -35,7 +35,7 @@ const App = () => {
             <div className="item-3 h-2 w-2 bg-black rounded-full"></div>
           </div>
         ) : (
-          (!cards && cards.length==0) ? <div className="absolute top-8 left-8 text-5xl">No Cards Found!!!</div> : cards?.map((data)=>{
+          (cards.length==0) ? <div className="absolute top-8 left-8 text-5xl">No Cards Found!!!</div> : cards?.map((data)=>{
             const {title, description, _id} = data;
             return <Card description={description} title={title} key={_id}></Card>
           })
