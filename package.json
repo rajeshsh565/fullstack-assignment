@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-assignment",
+  "version": "1.0.0",
+  "description": "1. **Clone the Repository:**\r    ```bash\r    git clone https://github.com/iAmritMalviya/fullstack-assignment\r    cd fullstack-assignment\r    ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm install && npm run dev",
+    "backend": "cd backend && npm install && npm run dev",
+    "dev": "concurrently --kill-others-on-fail \"npm run frontend\" \"npm run backend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

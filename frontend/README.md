@@ -1,4 +1,4 @@
-## Instructions
+## Individual Instructions for FrontEnd
 1. **Install Dependencies**
     ```
     npm install
@@ -11,9 +11,5 @@
     ```
     http://localhost:5173/
     ```
-4. **To display complete project, both frontend and backend dev servers should be running**
-    ```
-    /frontend
-    npm run dev
-    /backend
-    npm run dev
+### Note:- Cards will not be available without the backend server running.
+    Goto README.md at root folder for instructions on how to setup complete project.
