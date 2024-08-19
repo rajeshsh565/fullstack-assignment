@@ -16,3 +16,10 @@
    ```
    npm run dev
    ```
+
+4. **Add a few cards in you database using backend APIs in Postman or ThunderClient otherwise, cards section will be empty**
+
+5. **Open the Project in any Browser**
+    ```
+    http://localhost:5173/
+    ```
